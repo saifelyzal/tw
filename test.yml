@@ -2,5 +2,5 @@
    tasks:
    - name: Testing ansible_managed
      template:
-         src: 'app.j2'
+         src: 'app.conf'
          dest: '/etc/app.conf'
