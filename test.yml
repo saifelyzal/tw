@@ -1,0 +1,7 @@
+ - hosts: all
+   tasks: 
+   - name: test
+     shell: 'psql vmdb_production -c "select region from miq_regions;"'
+     register: regions
+   - debug:
+      var: regions.stdout_lines[2]
