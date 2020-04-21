@@ -3,4 +3,4 @@
    - name: Testing ansible_managed
      template:
          src: './templates/app.j2'
-         dest: 'etc/app.conf'
+         dest: '/etc/app.conf'
