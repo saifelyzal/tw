@@ -1,8 +1,9 @@
  - hosts: all
    tasks:
-   - name: Testing ansible_managed
-     template:
-         src: 'app.conf'
-         dest: '/etc/app.conf'
-   - debug: 
+   #- name: Testing ansible_managed
+    # template:
+     #    src: 'app.conf'
+      #   dest: '/etc/app.conf'
+   - name: Testing debug
+     debug:
        msg: "{{ lookup('env','PROJECT_REVISION') }}"
