@@ -4,3 +4,4 @@
      template:
          src: 'app.conf'
          dest: '/etc/app.conf'
+   - debug: msg="{{ lookup('env','PROJECT_REVISION') }}
