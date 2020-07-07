@@ -1,6 +1,4 @@
 # from GitHub
 ---
-# from galaxy
-- name: yatesr.timezone
-
+- src: https://github.com/bennojoy/mysql
 - src: https://github.com/bennojoy/nginx
