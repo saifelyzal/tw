@@ -5,7 +5,7 @@
    - name: Create a new organization
      tower_job_launch:
       job_template: collection
-      tower_host: 192.168.122.118
+      tower_host: 192.168.7.196
       validate_certs: false
       tower_username: admin
       tower_password: redhat
