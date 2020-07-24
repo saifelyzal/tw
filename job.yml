@@ -1,0 +1,11 @@
+ - hosts: localhost
+   collections:
+    - awx.awx
+   tasks:
+   - name: Create a new organization
+     tower_job_launch:
+      job_template: collection
+      tower_host: 192.168.122.118
+      validate_certs: false
+      tower_username: admin
+      tower_password: redhat
