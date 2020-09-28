@@ -3,5 +3,7 @@
    - name: Tesing URI Password 
      uri:
       url: https://ansible-httpd
+   - debug:
+        msg: "{{ result }}"
       
       
